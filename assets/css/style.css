@@ -188,11 +188,19 @@ body .full-width {
     min-height: 100vh;
 }
 
-.intro-text, .intro-img {
+.intro-text, .intro-img{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    padding: 6rem;
 }
+
+/* .intro-img {
+    width: 60%;
+    height: 60rem;
+    margin: 0 auto;
+    display: block
+} */
 
 .intro-text h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -201,11 +209,11 @@ body .full-width {
     line-height: 1.2;
 }
 
-.into-img img,
+ .into-img img,
 .intro-img svg {
     max-width: 100%;
     height: auto;
-}
+} 
 
 .servicos-content {
     max-width: 64rem;
@@ -272,7 +280,7 @@ body .full-width {
 }
 
 .gallery-img {
-    width: 100%;
+    width: 70%;
     max-width: 36rem;
     max-height: 36rem;
     overflow: hidden;
